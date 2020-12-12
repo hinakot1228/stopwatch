@@ -1,0 +1,57 @@
+
+/* @import url('https://fonts.googleapis.com/css?family=Sacramento'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+section {
+    background-image: url(./img/time-371226_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.stopwatch {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 65%;
+}
+#display {
+    font-size: 60px;
+    /* text-align: center; */
+    margin-bottom: 30px;
+    width: 100%;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    color: white;
+    background-color:gray;
+    width: 80px;
+    padding: 10px 0;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0 4px rgb(65, 63, 63);
+    outline: none;
+    letter-spacing: 1px;
+}
+button:active {
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+}
+#startStop {
+    margin-right: 10px;
+}
